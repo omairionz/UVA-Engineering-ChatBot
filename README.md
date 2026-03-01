@@ -20,7 +20,7 @@ pip install "unstructured[md]"
 
 # How to run this project
 
-## Create database
+## 1. Create database
 
 Create the Chroma DB.
 
@@ -28,12 +28,22 @@ Create the Chroma DB.
 python create_database.py
 ```
 
-## Query the database
+## 2. Query the database
 
 Query the Chroma DB.
 
 ```python
 python query_data.py "What is Computer Science?"
+```
+
+# Secondary Method to Run Project via StreamLit
+
+## 1. Head over to app.py
+
+Activate StreamLit by running the following in terminal:
+
+```python
+streamlit run app.py
 ```
 
 > You'll also need to set up an OpenAI account (and set the OpenAI key in your environment variable) for this to work. You can do that [here](https://platform.openai.com/api-keys).
