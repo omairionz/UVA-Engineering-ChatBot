@@ -20,11 +20,11 @@ if "chat_started" not in st.session_state:
     st.session_state.chat_started = False
 
 # -------- HEADER --------
-st.title("🎓 UVA Engineering Advisor")
+st.title("🎓 UVA Engineering Advisor", text_alignment="center")
 
 # -------- SUBHEADER INTRO (DISAPPEARS AFTER FIRST MESSAGE) --------
 if not st.session_state.chat_started:
-    st.subheader("Ask me anything about UVA Engineering majors.")
+    st.subheader("Ask me anything about UVA Engineering majors.", text_alignment="center")
 
 # -------- CLEAR CHAT BUTTON --------
 if st.button("🗑️ Clear Chat"):
@@ -44,6 +44,8 @@ Answer clearly and concisely in plain language.
 If information is missing, say so honestly.
 Do not fabricate requirements.
 Have a warm, welcoming personality.
+Help guide users to next question and if user says yes or wants that suggested question to be answered, answer it.
+Give users proper contact information if they ask.
 
 Chat History:
 {history}
