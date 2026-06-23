@@ -1,4 +1,4 @@
-# UVA Engineering RAG Chatbot
+# UVA Engineering Academic Advisor Chatbot
 
 > Created by @omairionz
 
