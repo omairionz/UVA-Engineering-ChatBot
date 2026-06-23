@@ -1,4 +1,6 @@
-# UVA Engineering RAG Chatbot by @omairionz - Inspired by pixegami
+# UVA Engineering RAG Chatbot
+
+> Created by @omairionz
 
 ## Install dependencies
 
@@ -55,7 +57,6 @@ streamlit run app.py
 
 Make sure you've already ran `create_database.py` before doing this in order to create proper context embeddings.
 
-> You'll also need to set up an OpenAI account (and set the OpenAI key in your environment variable) for this to work. You can do that [here](https://platform.openai.com/api-keys).
+You'll also need to set up an OpenAI account (and set the OpenAI key in your environment variable) for this to work. You can do that [here](https://platform.openai.com/api-keys).
 
-
-Here is a step-by-step tutorial video I used to create this project: [RAG+Langchain Python Project: Easy AI/Chat For Your Docs](https://www.youtube.com/watch?v=tcqEUSNCn8I&ab_channel=pixegami).
+> Here is a step-by-step tutorial video I used to create this project: [RAG+Langchain Python Project: Easy AI/Chat For Your Docs](https://www.youtube.com/watch?v=tcqEUSNCn8I&ab_channel=pixegami).
